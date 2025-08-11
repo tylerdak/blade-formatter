@@ -63,6 +63,7 @@ export default class Formatter {
 			...{
 				noPhpSyntaxCheck: false,
 				trailingCommaPHP: !options.noTrailingCommaPhp,
+        conditionWhitespace: !options.noConditionWhitespace,
 				printWidth: options.wrapLineLength || constants.defaultPrintWidth,
 			},
 			...options,
