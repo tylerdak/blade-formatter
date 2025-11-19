@@ -31,7 +31,6 @@
     "format": "biome format . --write",
     "check_formatted": "biome format .",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "prepare": "husky install",
     "bin": "cross-env ./bin/blade-formatter.cjs"
   },
   "bin": {
